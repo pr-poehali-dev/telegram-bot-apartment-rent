@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Get bookings list",
+      "method": "GET",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "bookings": []
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
